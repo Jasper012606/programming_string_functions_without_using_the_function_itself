@@ -6,3 +6,4 @@ titled_casing = ""
 for word in user_input:
     titled_casing += (word[0].upper() + word[1:].lower()) + " " #Add " " to seperate each word
 #print tinput in titled casing
+print("Title-cased:", titled_casing.strip())
