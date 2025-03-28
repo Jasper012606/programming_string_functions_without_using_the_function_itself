@@ -10,7 +10,9 @@ if total_space > 0:
     left_space = total_space // 2
     right_space = total_space - left_space
         #set centered text plus the spaces
+    centered_input = " " * left_space + user_input + " " * right_space
     #else, print text as is
 else:
     print(user_input)
 #print centered text
+print(centered_input)
