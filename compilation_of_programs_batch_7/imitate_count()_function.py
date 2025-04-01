@@ -3,9 +3,9 @@ def imitate_count(input, what_to_count):
     #initialize count to 0
     count = 0
     #check for character from the input
-    for char in input:
+    for i in range(len(input) - len(what_to_count) + 1):
         #if char matches what the user wants to count
-        if char == what_to_count:
+        if input[i:i + len(what_to_count)] == what_to_count:
             #add 1 to count
             count += 1
     #return count
